@@ -49,9 +49,6 @@ body {
   display: flex;
   flex-direction: column;
 }
-section{
-  display: flex;
-}
 
 .header-herosection > h1 {
   padding-top: 100px;
