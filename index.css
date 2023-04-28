@@ -19,7 +19,7 @@ body{
 
   }
   .header-nav{
-    height:12vh;
+    height:7vh;
     color:#6070FF;
     display: flex;
     align-items: center;
@@ -47,23 +47,46 @@ body{
     
   }
   .header-herosection{
+    color: #172B4D;
     background-image: url("/images/header-background.svg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 88vh;
     width:100vw;
     background-color: white;
+
   }
+  
   .header-herosection > h2{
     padding-top:100px ;
     font-weight: bold;
     font-size:45px;
     padding-left: 15px;
     padding-right: 15px;
-    color: #172B4D;
+  
+  }
+  .header-herosection > p{
+    color:#344563;
+    padding: 20px;
+    font-size: large;
+  }
+  .header-herosection>h3{
+    color:#7F8CFF;
+    padding-left: 20px;
+
 
   }
+  .social-media{
+    display: flex;
+    padding-left: 20px;
+    
+  }
+  .social-media > img {
+      margin-left: 10px;
+      
+  }
 
+  
 
   
 
