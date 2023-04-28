@@ -2,7 +2,7 @@
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="sam1.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Portfolio Project</b></h3>
@@ -35,7 +35,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Portfolio project] <a name="about-project"></a>
 
 > This is a mobile version of a portfolio website. It includes the project setup and the header section of the mobile version
 

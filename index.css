@@ -6,78 +6,82 @@ body {
   font-family: Poppins, sans-serif;
 }
 
-@media (min-width: 375px) {
-  body {
-    box-sizing: border-box;
-    margin: auto;
-    background: white;
-    padding: 0;
-  }
+.header-section {
+  height: 100vh;
+}
 
-  .header-section {
-    height: 100vh;
-  }
+.header-nav {
+  height: 7vh;
+  color: #6070ff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
-  .header-nav {
-    height: 7vh;
-    color: #6070ff;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
+.header-nav > a {
+  margin-left: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #6070ff;
+  text-decoration-color: none;
+  font-size: 22px;
+}
 
-  .header-nav > h1 {
-    font-size: xx-large;
-    margin-left: 30px;
-    font-weight: bold;
-  }
+.bar-line {
+  width: 30px;
+  height: 3px;
+  background: #6070ff;
+  margin: 4px;
+}
 
-  .bar-line {
-    width: 50px;
-    height: 4px;
-    background: #6070ff;
-    margin: 4px;
-  }
+.bar {
+  margin-right: 30px;
+}
 
-  .bar {
-    margin-right: 30px;
-  }
+.header-herosection {
+  color: #172b4d;
+  background-image: url("/images/header-background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 88vh;
+  width: 100vw;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+section{
+  display: flex;
+}
 
-  .header-herosection {
-    color: #172b4d;
-    background-image: url("/images/header-background.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 88vh;
-    width: 100vw;
-    background-color: white;
-  }
+.header-herosection > h1 {
+  padding-top: 100px;
+  font-weight: bold;
+  font-size: 45px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 
-  .header-herosection > h2 {
-    padding-top: 100px;
-    font-weight: bold;
-    font-size: 45px;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
+.header-herosection > p {
+  color: #344563;
+  padding: 0 20px 20px 20px;
+  font-size: large;
+}
 
-  .header-herosection > p {
-    color: #344563;
-    padding: 20px;
-    font-size: large;
-  }
+.header-herosection > h3 {
+  color: #7f8cff;
+  padding-left: 20px;
+}
 
-  .header-herosection > h3 {
-    color: #7f8cff;
-    padding-left: 20px;
-  }
+.social-media {
+  display: flex;
+  padding-left: 20px;
+}
 
-  .social-media {
-    display: flex;
-    padding-left: 20px;
-  }
+.social-media > li {
+  text-decoration: none;
+  list-style-type: none;
+}
 
-  .social-media > img {
-    margin-left: 10px;
-  }
+.social-media-spacer {
+  margin-left: 20px;
 }
