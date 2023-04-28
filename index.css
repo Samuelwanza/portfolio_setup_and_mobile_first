@@ -1,21 +1,21 @@
 body{
   box-sizing: border-box;
-  margin: auto;
+  margin:auto;
   background: white;
   padding: 0;
   font-family: Poppins, sans-serif;
 }
 
 @media (min-width:375px){
-  body{
-    box-sizing: border-box;
+  body {
+    box-sizing:border-box;
     margin: auto;
-    background: white;
+    background:white;
     padding: 0;
 
   }
-  .header-section{
-    height: 100vh;
+  .header-section {
+    height:100vh;
 
   }
   .header-nav {
@@ -27,15 +27,15 @@ body{
 
   }
 
-  .header-nav > h1{
+  .header-nav > h1 {
     font-size: xx-large;
-    margin-left: 30px;
-    font-weight: bold;
+    margin-left:30px;
+    font-weight:bold;
 
   }
 
 
-  .bar-line{
+  .bar-line {
     width: 50px;
     height: 4px;
     background:#6070FF;
@@ -43,11 +43,11 @@ body{
     
 
   }
-  .bar{
+  .bar {
     margin-right: 30px;
     
   }
-  .header-herosection{
+  .header-herosection {
     color: #172B4D;
     background-image: url("/images/header-background.svg");
     background-repeat: no-repeat;
@@ -58,7 +58,7 @@ body{
 
   }
   
-  .header-herosection > h2{
+  .header-herosection > h2 {
     padding-top:100px ;
     font-weight: bold;
     font-size:45px;
@@ -66,7 +66,7 @@ body{
     padding-right: 15px;
   
   }
-  .header-herosection > p{
+  .header-herosection > p {
     color:#344563;
     padding: 20px;
     font-size: large;
@@ -77,7 +77,7 @@ body{
 
 
   }
-  .social-media{
+  .social-media {
     display: flex;
     padding-left: 20px;
     
