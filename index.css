@@ -1,26 +1,26 @@
-body{
+body {
   box-sizing: border-box;
-  margin:auto;
+  margin: auto;
   background: white;
   padding: 0;
   font-family: Poppins, sans-serif;
 }
 
-@media (min-width:375px){
+@media (min-width: 375px) {
   body {
-    box-sizing:border-box;
+    box-sizing: border-box;
     margin: auto;
-    background:white;
+    background: white;
     padding: 0;
 
   }
   .header-section {
-    height:100vh;
+    height: 100vh;
 
   }
   .header-nav {
     height: 7vh;
-    color: #6070FF;
+    color:#6070FF;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -29,8 +29,8 @@ body{
 
   .header-nav > h1 {
     font-size: xx-large;
-    margin-left:30px;
-    font-weight:bold;
+    margin-left: 30px;
+    font-weight: bold;
 
   }
 
@@ -38,14 +38,12 @@ body{
   .bar-line {
     width: 50px;
     height: 4px;
-    background:#6070FF;
+    background: #6070FF;
     margin: 4px;
-    
-
   }
+
   .bar {
-    margin-right: 30px;
-    
+    margin-right: 30px; 
   }
   .header-herosection {
     color: #172B4D;
@@ -83,12 +81,6 @@ body{
     
   }
   .social-media > img {
-      margin-left: 10px;
-      
-  }
-
-  
-
-  
-
+    margin-left: 10px;
+}
 }
