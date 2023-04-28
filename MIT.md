@@ -1,7 +1,7 @@
-## Copyright 2023, [Samuel Wanza]
+## Copyright 2021, Samuel Wanza
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this [HelloMicroverse] and associated documentation files, to deal in the [Portfolio: setup and mobile first] without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the [APP TYPE], and to permit persons to whom the [Hello microverse] is furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this [APP TYPE] and associated documentation files, to deal in the [APP TYPE] without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the [APP TYPE], and to permit persons to whom the [APP TYPE] is furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the [Portfolio: setup and mobile first].
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the [APP TYPE].
 
-THE [Portfolio: setup and mobile first] IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE [Portfolio: setup and mobile first] OR THE USE OR OTHER DEALINGS IN THE [Portfolio: setup and mobile first].
+THE [APP TYPE] IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE [APP TYPE] OR THE USE OR OTHER DEALINGS IN THE [APP TYPE].

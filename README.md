@@ -2,10 +2,10 @@
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="sam1.png" alt="logo" width="140"  height="auto" />
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Portfolio: setup and mobile first</b></h3>
+  <h3><b>Portfolio Project</b></h3>
 
 </div>
 
@@ -16,27 +16,30 @@
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-
   - [Setup](#setup)
-
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
   - [Usage](#usage)
-
+  - [Run tests](#run-tests)
   - [Deployment](#deployment)
-
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
-
+- [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Samuel Wanza] <a name="about-project"></a>
+# 📖 [your_project_name] <a name="about-project"></a>
 
-**[Portfolio: setup and mobile first]** is a project that a implements a portfolio with key emphasis of developing the mobile version first.
+> This is a mobile version of a portfolio website. It includes the project setup and the header section of the mobile version
+
+**[your_project__name]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -44,10 +47,46 @@
 
 <details>
   <summary>Client</summary>
-    <p>This project is completed in css and html and linters</p>
+  <p>This project is implemented in html5 and css3</p>
 </details>
 
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+> Describe between 1-3 key features of the application.
+
+- **[Introductionsection]**
+- **[Projects]**
+- **[Testimonials]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+<p>This project is  not yet deployed</p>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
 ## 💻 Getting Started <a name="getting-started"></a>
+
+<p> To run the project, clone the repository to the choice directory and then launch vs code , install live server and launch it</p>
+
+### Prerequisites
+
+None
+
+<!--
+Example command:
+
+```sh
+ gem install rails
+```
+ -->
 
 ### Setup
 
@@ -55,23 +94,16 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/Samuelwanza/HelloMicroverse.git
+  git clone https://github.com/Samuelwanza/portfolio_setup_and_mobile_first
 ```
+
+### Install
 
 ### Usage
 
-To run this project, head to the project directory,
+### Run tests
 
-install live server in vs code
-and then launch the project
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
+### Deployment
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -79,7 +111,9 @@ Example command:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Samuel Wanza**
+> Mention all of the collaborators of this project.
+
+**Samuel Wanza**
 
 - GitHub: [@githubhandle](https://github.com/Samuelwanza/)
 - Twitter: [@twitterhandle](https://twitter.com/samuelmunguti9/)
@@ -87,12 +121,11 @@ Example command:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!--Future Features-->
+<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Dynamic_greetings_feature]**
-- [ ] **[Responsive_background]**
+- [ ] **[Integrate desktop version]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -110,7 +143,27 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project kindly star it
+You are welcome to start this project and even improve it
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to everyone that inspired this codebase
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+- **[Can I adapt your project and suit my liking?]**
+
+  - [Answer_1]
+
+- **[Yes you can]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
