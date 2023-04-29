@@ -1,16 +1,3 @@
-<a name="readme-top"></a>
-
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="sam1.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Portfolio Project</b></h3>
-
-</div>
-
-<!-- TABLE OF CONTENTS -->
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -33,13 +20,9 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
+# 📖 Portfolio project <a name="about-project"></a>
 
-# 📖 [Portfolio project] <a name="about-project"></a>
-
-> This is a mobile version of a portfolio website. It includes the project setup and the header section of the mobile version
-
-**[your_project__name]** is a...
+Portfolio Project a final mobile version of a portfolio website. It includes the project setup and the header section of the mobile version
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -50,11 +33,9 @@
   <p>This project is implemented in html5 and css3</p>
 </details>
 
-<!-- Features -->
-
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+Describe between 1-3 key features of the application.
 
 - **[Introductionsection]**
 - **[Projects]**
@@ -62,15 +43,11 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 <p>This project is  not yet deployed</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -79,14 +56,6 @@
 ### Prerequisites
 
 None
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
 
 ### Setup
 
@@ -99,15 +68,21 @@ Clone this repository to your desired folder:
 
 ### Install
 
+Install linters, live server to run the project
+
 ### Usage
+
+N/A
 
 ### Run tests
 
+Run npx stylelint "/\*css" for linter tests
+
 ### Deployment
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+The project can be deployed to any favourable hosting platform
 
-<!-- AUTHORS -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -121,15 +96,11 @@ Clone this repository to your desired folder:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
-
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[Integrate desktop version]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -139,23 +110,17 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
-
 ## ⭐️ Show your support <a name="support"></a>
 
 You are welcome to start this project and even improve it
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
-
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to everyone that inspired this codebase
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
@@ -167,12 +132,8 @@ I would like to everyone that inspired this codebase
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LICENSE -->
-
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
