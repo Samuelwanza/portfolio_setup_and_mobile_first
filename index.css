@@ -55,12 +55,16 @@ body {
   font-size: 45px;
   padding-left: 15px;
   padding-right: 15px;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 .header-herosection > p {
   color: #344563;
   padding: 20px 20px 20px 20px;
   font-size: large;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 .header-herosection > h3 {
@@ -83,12 +87,15 @@ body {
 }
 
 .grid-item {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   box-shadow: 2px;
-  padding: 5px;
+  padding-left: 14px;
   width: 300px;
   border: 2px solid#DFE1E6;
   border-radius: 10px;
+  padding-bottom: 15px;
 }
 
 .image-wrapper {
@@ -97,13 +104,14 @@ body {
 }
 
 .image-wrapper > img {
-  width: 250px;
-  border-radius: 30px;
+  width: 280px;
+  border-radius: 8px;
   align-content: center;
+  margin-top: 16px;
 }
 
 .grid-container {
-  margin-top: 200px;
+  margin-top: 150px;
   display: grid;
   grid-template-columns: 1fr;
   margin-left: 15px;
@@ -163,12 +171,14 @@ body {
 }
 
 button {
-  border: 2px solid#6070ff;
+  border: 1px solid#6070ff;
   font-size: 20px;
   color: #6070ff;
   padding: 8px;
-  border-radius: 15px;
+  border-radius: 12px;
   background-color: white;
+  width: 200px;
+  font-weight: bold;
 }
 
 button :disabled {
@@ -180,6 +190,11 @@ button :hover {
   border: 2px solid #5e6c84;
   background-color: #6070ff;
   opacity: 80%;
+  color: white;
+}
+
+button :active {
+  background-color: #6070ff;
   color: white;
 }
 
@@ -196,11 +211,19 @@ button :hover {
   padding-left: 20px;
 }
 
+.about-myself > h2 {
+  color: #172b4d;
+  font-size: x-large;
+}
+
 .about-myself > p {
   color: #344563;
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 500;
   padding: 5px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-style: normal;
 }
 
 .about-myself > {
@@ -214,6 +237,7 @@ button :hover {
   margin-top: 10px;
   margin-left: 10px;
   margin-right: 20px;
+  padding-inline-start: 0;
 }
 
 .sub-header {
@@ -228,16 +252,27 @@ button :hover {
   height: 30px;
 }
 
+.sub-header > h2 {
+  font-size: 16px;
+}
+
 .lang-planner {
   display: flex;
   background: #f7f7f9;
-  margin: 10px;
+  margin-left: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
 }
 
 .lang-planner > img {
   padding-right: 20px;
 }
 
-.sub-header > h2 {
-  font-size: 24px;
+.frameworks-subsection {
+  padding-inline-start: 0;
+}
+
+.skills-subsection {
+  padding-inline-start: 0;
 }
