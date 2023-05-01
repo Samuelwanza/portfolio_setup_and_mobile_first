@@ -156,10 +156,16 @@ body {
 }
 
 .grid-item > ul {
-  display: flex;
   list-style: none;
-  justify-self: flex-start;
   padding-inline-start: 10px;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
 }
 
 .grid-item > ul > li {
