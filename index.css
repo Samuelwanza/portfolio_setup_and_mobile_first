@@ -299,7 +299,6 @@ button:active {
   text-align: center;
   color: #FFFFFF;
   margin-block-end: 0;
-  border: solid gold;
 }
 
 .contact-form-section > p {
@@ -309,12 +308,10 @@ button:active {
   font-size: 20px;
   line-height: 28px;
   text-align: center;
-  color: #EBEBFF;
-  border: solid gold;
+  color: #ebebff;
   padding-left: 20px;
   padding-right: 20px;
 }
-
 
 .form-section {
   width: 85vw;
@@ -367,4 +364,15 @@ textarea::placeholder {
   line-height: 24px;
   color: #B3BAC5;
   padding-left: 10px;
+}
+
+.form-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color:#6070FF;
+  align-self: flex-start;
+  margin-top: 12px;
+  margin-bottom: 60px;
+  background-color: white;
 }
