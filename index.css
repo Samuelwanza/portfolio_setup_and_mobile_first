@@ -279,7 +279,6 @@ button:active {
 }
 
 .contact-form-section {
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -291,18 +290,16 @@ button:active {
 
 .contact-form-section > h3 {
   margin-top: 120px;
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   text-align: center;
-  color: #FFFFFF;
+  color: #fff;
   margin-block-end: 0;
 }
 
 .contact-form-section > p {
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -323,46 +320,44 @@ button:active {
 label {
   width: 85vw;
   margin-bottom: 10px;
-  /* border: solid gold; */
 }
 
 input {
   width: 85vw;
   padding-top: 14px;
   padding-bottom: 14px;
-  background: #FFFFFF;
-  border: 1px solid #CFD8DC;
+  background: #fff;
+  border: 1px solid #cfd8dc;
   border-radius: 8px;
+
   /* border: solid gold; */
 }
 
 input::placeholder {
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
   display: flex;
   align-items: center;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 textarea {
   width: 85vw;
   padding-top: 14px;
   padding-bottom: 14px;
-  background: #FFFFFF;
-  border: 1px solid #CFD8DC;
+  background: #fff;
+  border: 1px solid #cfd8dc;
   border-radius: 8px;
-  }
+}
 
 textarea::placeholder {
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  color: #B3BAC5;
+  color: #b3bac5;
   padding-left: 10px;
 }
 
@@ -370,7 +365,7 @@ textarea::placeholder {
   display: flex;
   flex-direction: row;
   align-items: center;
-  color:#6070FF;
+  color: #6070ff;
   align-self: flex-start;
   margin-top: 12px;
   margin-bottom: 60px;
