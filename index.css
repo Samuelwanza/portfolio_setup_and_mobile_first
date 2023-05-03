@@ -371,3 +371,41 @@ textarea::placeholder {
   margin-bottom: 60px;
   background-color: white;
 }
+
+.nav-links {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .bar-line {
+    display: none;
+  }
+
+  .nav-links {
+    display: block;
+    margin-right: 50px;
+  }
+
+  .nav-links > ul {
+    display: flex;
+    list-style: none;
+  }
+
+  .nav-links > ul > li > a {
+    text-decoration: none;
+    color: #344563;
+  }
+
+  .nav-links > ul > li:nth-child(2) {
+    margin-left: 8px;
+  }
+
+  .nav-links > ul > li:nth-child(3) {
+    margin-left: 8px;
+  }
+
+  .header-nav {
+    width: 100vw;
+    margin-left: 50px;
+  }
+}
