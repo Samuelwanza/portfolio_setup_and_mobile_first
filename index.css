@@ -616,5 +616,6 @@ textarea::placeholder {
 
   .form-btn {
     align-self: center;
+    margin-bottom: 50px;
   }
 }
