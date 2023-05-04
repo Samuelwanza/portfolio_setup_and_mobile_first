@@ -613,4 +613,8 @@ textarea::placeholder {
   .contact-form-section > p {
     font-size: 16px;
   }
+
+  .form-btn {
+    align-self: center;
+  }
 }
