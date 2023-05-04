@@ -414,6 +414,14 @@ textarea::placeholder {
     color: #344563;
   }
 
+  .card-divider > ul > li {
+    background-color: #ebebff;
+    padding: 5px 5px 4px 4px;
+    font-size: 18px;
+    color: #6070ff;
+    border-radius: 5px;
+  }
+
   .nav-links > ul > li:nth-child(2) {
     margin-left: 8px;
   }
@@ -500,14 +508,6 @@ textarea::placeholder {
     padding-inline-start: 10px;
   }
 
-  .card-divider > ul > li {
-    background-color: #ebebff;
-    padding: 5px 5px 4px 4px;
-    font-size: 18px;
-    color: #6070ff;
-    border-radius: 5px;
-  }
-
   .card-divider > h2 {
     margin-block-end: 0;
   }
@@ -515,6 +515,15 @@ textarea::placeholder {
   .grid-item:hover {
     cursor: pointer;
     border: 2px solid #a7aeff;
+  }
+
+  .about-myself-divider1 {
+    width: 40vw;
+  }
+
+  .about-myself-divider1 > button {
+    margin-left: 0;
+    margin-top: 5px;
   }
 
   .grid-item:hover > .card-divider > button {
@@ -526,11 +535,11 @@ textarea::placeholder {
     flex-direction: row-reverse;
   }
 
-  .grid-item:nth-child(2) > .image-wrapper > img{
+  .grid-item:nth-child(2) > .image-wrapper > img {
     margin-right: 5px;
   }
 
-  .grid-item:nth-child(4) > .image-wrapper > img{
+  .grid-item:nth-child(4) > .image-wrapper > img {
     margin-right: 5px;
   }
 
@@ -546,49 +555,39 @@ textarea::placeholder {
     flex-direction: row;
     justify-content: space-around;
     margin-left: 0;
-
   }
 
-  .languages-subsection>:nth-child(2){
+  .languages-subsection > :nth-child(2) {
     display: block;
     float: left;
-    
   }
-  .languages-subsection>:nth-child(3){
+
+  .languages-subsection > :nth-child(3) {
     display: block;
     float: left;
     margin-left: 8px;
   }
-  .languages-subsection>:nth-child(4){
+
+  .languages-subsection > :nth-child(4) {
     display: block;
     float: right;
     margin-left: 8px;
-    
-
   }
-  .frameworks-subsection{
+
+  .frameworks-subsection {
     clear: both;
   }
 
-  .about-myself-divider1{
-    width: 40vw;
+  .social-media1 {
+    padding-left: 0;
+  }
 
-  }
-  .social-media1{
-  padding-left: 0;
-  }
-  
   .about-myself-divider1 > h3 {
     color: #7f8cff;
     padding-left: 0;
   }
 
-  .about-myself-divider1 > button {
-    margin-left: 0;
-    margin-top: 5px;
-  }
-
-  .contact-form-section{
+  .contact-form-section {
     background-image: url("/images/contact\ form\ background\ shapes.svg");
     background-size: 100% 100%;
     width: 100vw;
@@ -610,8 +609,8 @@ textarea::placeholder {
   .contact-form-section > p {
     width: 40vw;
   }
-  .contact-form-section>p{
+
+  .contact-form-section > p {
     font-size: 16px;
   }
-
 }
