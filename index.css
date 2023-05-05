@@ -485,10 +485,14 @@ textarea::placeholder {
   .grid-item {
     display: flex;
     flex-direction: row;
-    width: 700px;
+    width: 90%;
     height: 300px;
     justify-content: space-between;
     background: white;
+  }
+
+  .image-wrapper {
+    width: 50%;
   }
 
   .image-wrapper > img {
@@ -496,7 +500,8 @@ textarea::placeholder {
     border-radius: 8px;
     align-content: center;
     margin-top: 16px;
-    width: 350px;
+    width: 100%;
+    flex: 1;
   }
 
   .card-divider {
@@ -505,8 +510,8 @@ textarea::placeholder {
 
   .card-divider > p {
     color: #344563;
-    font-size: 12px;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 500;
     padding: 5px;
     margin-block-start: 0;
     margin-block-end: 0;
