@@ -81,7 +81,24 @@ body {
   font-size: large;
   margin-block-start: 0;
   margin-block-end: 0;
+  animation-name: slide_description;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
 }
+
+@keyframes  slide_description {
+  from { 
+    padding: 20px;
+    width: 300%;
+  }
+
+  to { 
+    padding: 20px ;
+
+    }
+}
+
 
 .header-herosection > h3 {
   color: #7f8cff;
