@@ -470,10 +470,17 @@ textarea::placeholder {
     margin-block-end: 0;
   }
 
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
   .grid-item {
     display: flex;
     flex-direction: row;
-    width: 90vw;
+    width: 700px;
     height: 300px;
     justify-content: space-between;
     background: white;
