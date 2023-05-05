@@ -433,6 +433,11 @@ textarea::placeholder {
   .header-nav {
     width: 100vw;
     padding-left: 50px;
+    overflow: hidden;
+  }
+
+  .header-section {
+    overflow: hidden;
   }
 
   .header-herosection {
@@ -599,7 +604,6 @@ textarea::placeholder {
     width: 100vw;
     height: 88vh;
     overflow-x: hidden;
-    border-bottom-left-radius: 100px;
     background-color: #6070ff;
     border-top-left-radius: 100px;
     justify-content: center;
