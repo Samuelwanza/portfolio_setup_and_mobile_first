@@ -486,7 +486,6 @@ textarea::placeholder {
     display: flex;
     flex-direction: row;
     width: 90%;
-    height: 300px;
     justify-content: space-between;
     background: white;
   }
@@ -496,7 +495,6 @@ textarea::placeholder {
   }
 
   .image-wrapper > img {
-    height: 280px;
     border-radius: 8px;
     align-content: center;
     margin-top: 16px;
