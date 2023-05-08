@@ -9,7 +9,7 @@
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
-  - [Usage](#usage)
+  - [Usage](#usage)f
   - [Run tests](#run-tests)
   - [Deployment](#deployment)
 - [👥 Authors](#authors)
@@ -45,7 +45,7 @@ Describe between 1-3 key features of the application.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-<p>This project is  not yet deployed</p>
+[live Project](https://samuelwanza.github.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
