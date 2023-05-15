@@ -16,4 +16,19 @@ document.addEventListener("DOMContentLoaded", () => {
     bar.style.display = "none";
     logo.style.display = "none";
   };
+
+  const sustainMenuBar = () => {
+    toggleMenu();
+    bar.style.display = "block";
+    logo.style.display = "block";
+  };
+
+  bar.addEventListener("click", withdrawMenuBar);
+  xIcon.addEventListener("click", sustainMenuBar);
+  Array.from(menuList).forEach((item) => {
+    item.addEventListener("click", sustainMenuBar);
+    item.onclick = (e) => {
+      e.preventDefault();
+    };
+  });
 });
