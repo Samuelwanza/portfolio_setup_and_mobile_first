@@ -46,6 +46,7 @@ Describe between 1-3 key features of the application.
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 [live Project](https://samuelwanza.github.io/)
+[Recording](https://www.loom.com/share/34ff3442537b4cee8f00ddc30a4409ee)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
