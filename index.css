@@ -7,6 +7,7 @@ body {
 
 .header-section {
   height: 100vh;
+  position: relative;
 }
 
 @keyframes rotate-logo {
@@ -49,6 +50,68 @@ body {
   margin-right: 30px;
 }
 
+.mobile-menu {
+  display: none;
+  background: #6070ff;
+  position: absolute;
+  top: 100;
+  height: 100vh;
+  width: 100%;
+  mix-blend-mode: multiply;
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  z-index: 999;
+}
+
+.mobile-menu1 {
+  display: block;
+  background: #6070ff;
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  mix-blend-mode: multiply;
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  z-index: 999;
+  animation: menu-slide 1s ease-in-out;
+}
+
+@keyframes menu-slide {
+  from {
+    height: 0;
+  }
+
+  to {
+    height: 100vh;
+  }
+}
+
+.mobile-menu-toggler {
+  float: right;
+  padding-top: 20px;
+  margin-right: 18px;
+}
+
+.mobile-menu-items {
+  clear: right;
+  list-style: none;
+  padding-top: 10px;
+}
+
+.mobile-menu-items > li {
+  padding-bottom: 16px;
+}
+
+.mobile-menu-items > li > a {
+  font-size: 32px;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
 .header-herosection {
   color: #172b4d;
   background-image: url("/images/header-background.svg");
@@ -59,6 +122,19 @@ body {
   background-color: white;
   display: flex;
   flex-direction: column;
+}
+
+.header-herosection1 {
+  color: #172b4d;
+  background-image: url("/images/header-background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 88vh;
+  width: 100vw;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  filter: blur(6px);
 }
 
 .header-herosection > h1 {
