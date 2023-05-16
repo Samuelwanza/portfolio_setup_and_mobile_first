@@ -36,7 +36,7 @@
           </ul>
         </nav>
       </header>
-      <section class="header-herosection">
+      <section class="header-herosection" id="show-menu">
         <h1>I’m Alexandra.<span>Glad to see you!</span></h1>
         <p>
           I’m a software developer! I can help you build a product , feature or
@@ -61,6 +61,22 @@
           </li>
         </ul>
       </section>
+      <div class="mobile-menu" id="mymobilemenu">
+        <img
+          src="images/Enabled.png"
+          class="mobile-menu-toggler"
+          alt="mobile-menu-toggler"
+        />
+        <ul class="mobile-menu-items">
+          <li><a href="#show-menu">Portfolio</a></li>
+          <li><a href="#about-myself">About</a></li>
+          <li><a href="#contact-me">Contact</a></li>
+        </ul>
+
+        <div class="decorator-wrapper">
+          <div class="bottom-decorator"></div>
+        </div>
+      </div>
     </div>
     <section class="grid-container">
       <div class="grid-item">
@@ -190,7 +206,7 @@
         </div>
       </div>
     </section>
-    <section class="about-myself">
+    <section class="about-myself" id="about-myself">
       <div class="about-myself-divider1">
         <h2>About Myself</h2>
         <p>
@@ -250,7 +266,7 @@
         </ul>
       </div>
     </section>
-    <section class="contact-form-section">
+    <section class="contact-form-section" id="contact-me">
       <h3>Contact me</h3>
       <p>
         If you have an application you are interested in developing, a feature
@@ -293,5 +309,6 @@
         <button class="form-btn">Get in touch</button>
       </form>
     </section>
+    <script src="/index.js"></script>
   </body>
 </html>
