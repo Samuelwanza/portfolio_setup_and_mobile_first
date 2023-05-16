@@ -27,8 +27,5 @@ document.addEventListener("DOMContentLoaded", () => {
   xIcon.addEventListener("click", sustainMenuBar);
   Array.from(menuList).forEach((item) => {
     item.addEventListener("click", sustainMenuBar);
-    item.onclick = (e) => {
-      e.preventDefault();
-    };
   });
 });
