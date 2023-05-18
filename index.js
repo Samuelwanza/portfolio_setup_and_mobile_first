@@ -206,7 +206,11 @@ document.addEventListener("DOMContentLoaded", () => {
       popUpContainer.innerHTML = "";
       popUpContainer.style.opacity = 1;
       popUpContainer.style.pointerEvents = "auto";
-      popUpContainer.style.display = "flex";
+      document
+        .querySelector(".pop-up-menu-title-wrapper")
+        .addEventListener("click", () => {
+          popUpContainer.style.display = "none";
+      });popUpContainer.style.display = "flex";
       popUpContainer.style.justifyContent = "center";
       popUpContainer.style.alignItems = "center";
       popUpContainer.appendChild(popUpMenu);
