@@ -260,6 +260,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow-y: scroll;
 }
 
 .demacator > ul {
@@ -298,7 +299,8 @@ body {
 .pop-button {
   display: flex;
   justify-content: space-between;
-  margin-top: 30px;
+  margin-bottom: 3px;
+  margin-right: 20px;
 }
 
 .pop-image-wrapper > img {
@@ -328,7 +330,9 @@ button {
   justify-content: space-between;
   align-items: center;
   width: 150px;
+  margin-bottom: 20px;
 }
+
 
 .pop-button > button > span > img {
   height: 20px;
@@ -866,7 +870,7 @@ textarea::placeholder {
     width: 65vw;
     display: flex;
     justify-content: flex-start;
-    height: 50vh;
+    height: 80vh;
   }
 
   .long-description {
