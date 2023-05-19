@@ -237,4 +237,22 @@ document.addEventListener("DOMContentLoaded", () => {
   Array.from(menuList).forEach((item) => {
     item.addEventListener("click", sustainMenuBar);
   });
+
+  const form = document.querySelector("form");
+
+  const validateEmail = () => {
+    const emailInput = document.querySelector("#email");
+    const email = emailInput.value.trim();
+    const errorContent = "Email must be in lowercase ";
+
+    if (email !== email.toLowerCase()) {
+      const errorDisplay = document.createElement("span");
+      errorDisplay.classList.add("error-message");
+      errorDisplay.textContent = errorContent;
+      const submitButton = document.querySelector(".form-btn");
+      submitButton.insertAdjacentElement("afterend", errorDisplay);
+      return;
+    }
+    form.submit();
+  };
 });
