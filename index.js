@@ -256,3 +256,8 @@ document.addEventListener("DOMContentLoaded", () => {
     form.submit();
   };
 });
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  validateEmail();
+});
