@@ -495,7 +495,7 @@ button:active {
   padding-inline-start: 0;
 }
 
-.contact-form-section {
+.contact-form-sections {
   display: flex;
   flex-direction: column;
   justify-content: center;
