@@ -1,16 +1,16 @@
 const projects = [
   {
-    image_url: '/images/tonic.png',
-    project_title: 'Tonic',
+    image_url: '/images/fire.png',
+    project_title: 'FIRE',
     work_details: {
-      company: 'CANOPY',
-      role: 'Back End Dev',
-      year: 2015,
+      company: 'FULLER',
+      role: 'Frontend Dev',
+      year: 2023,
     },
     description:
-      'A daily selection of privately personalized reads; no accounts orsign-ups required',
+      'A marketing site for the fuller in residence entrepreneurship program',
     long_description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      'Fuller in Residence program brings innovations to life and unlock the potential of ideas. This program offers entrepreneurs an opportunity to transform their tech ideas into a tangible reality',
     technologies: {
       firstTech: 'HTML',
       secondTech: 'CSS',
@@ -38,6 +38,24 @@ const projects = [
   {
     image_url: '/images/tonica1.png',
     project_title: 'Tonic',
+    work_details: {
+      company: 'CANOPY',
+      role: 'Back End Dev',
+      year: 2015,
+    },
+    description:
+      'A daily selection of privately personalized reads; no accounts orsign-ups required',
+    long_description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    technologies: {
+      firstTech: 'HTML',
+      secondTech: 'CSS',
+      ThirdTech: 'Javascript',
+    },
+  },
+  {
+    image_url: '/images/tonica.png',
+    project_title: 'Multi-Post Stories',
     work_details: {
       company: 'CANOPY',
       role: 'Back End Dev',
